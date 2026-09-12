@@ -1,4 +1,4 @@
-package com.joaodev.springaibudgeting;
+package com.joaodev.springaibudgeting.examples;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;

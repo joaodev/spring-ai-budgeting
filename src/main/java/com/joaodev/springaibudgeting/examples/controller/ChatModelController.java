@@ -1,4 +1,4 @@
-package com.joaodev.springaibudgeting.controller;
+package com.joaodev.springaibudgeting.examples.controller;
 
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.web.bind.annotation.GetMapping;

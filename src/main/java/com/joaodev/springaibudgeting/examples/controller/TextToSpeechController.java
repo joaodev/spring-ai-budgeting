@@ -1,6 +1,6 @@
-package com.joaodev.springaibudgeting.controller;
+package com.joaodev.springaibudgeting.examples.controller;
 
-import com.joaodev.springaibudgeting.dto.SynthesizeRequest;
+import com.joaodev.springaibudgeting.examples.dto.SynthesizeRequest;
 import org.springframework.ai.audio.tts.TextToSpeechModel;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;

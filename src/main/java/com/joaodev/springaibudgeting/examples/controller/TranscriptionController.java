@@ -1,4 +1,4 @@
-package com.joaodev.springaibudgeting.controller;
+package com.joaodev.springaibudgeting.examples.controller;
 
 import org.springframework.ai.audio.transcription.TranscriptionModel;
 import org.springframework.http.MediaType;

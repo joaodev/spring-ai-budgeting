@@ -1,6 +1,6 @@
-package com.joaodev.springaibudgeting;
+package com.joaodev.springaibudgeting.examples;
 
-import com.joaodev.springaibudgeting.aitools.MathTools;
+import com.joaodev.springaibudgeting.examples.aitools.MathTools;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
 import org.springframework.ai.chat.client.ChatClient;

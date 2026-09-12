@@ -1,4 +1,4 @@
-package com.joaodev.springaibudgeting.aitools;
+package com.joaodev.springaibudgeting.examples.aitools;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.joaodev.springaibudgeting.controller;
+package com.joaodev.springaibudgeting.examples.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.GetMapping;
