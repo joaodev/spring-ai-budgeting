@@ -1,5 +1,6 @@
 package com.joaodev.springaibudgeting;
 
+import com.joaodev.springaibudgeting.aitools.MathTools;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,5 +17,4 @@ public class SpringAiBudgetingApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringAiBudgetingApplication.class, args);
     }
-
 }
