@@ -28,10 +28,10 @@ public class TransactionEntity {
 
     public static TransactionEntity from(Transaction transaction) {
         return new TransactionEntity(
-                transaction.getId().uuid(),
-                transaction.getDescription(),
-                transaction.getAmount(),
-                transaction.getCategory()
+                transaction.id().uuid(),
+                transaction.description(),
+                transaction.amount(),
+                transaction.category()
         );
     }
 

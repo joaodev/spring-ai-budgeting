@@ -1,20 +1,17 @@
 package com.joaodev.springaibudgeting.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@Getter
-@AllArgsConstructor
-public class Transaction {
-    private final TransactionId id;
-    private final String description;
-    private final double amount;
-    private final Category category;
-
+public record Transaction(TransactionId id, String description, double amount, Category category) {
     public Transaction(String description, double amount, Category category) {
-        this.id = new TransactionId();
-        this.description = description;
-        this.amount = amount;
-        this.category = category;
+        if (description == null || description.isBlank()) {
+            throw new IllegalArgumentException("descrição não pode ser vazia");
+        }
+        if (amount <= 0) {
+            throw new IllegalArgumentException("valor deve ser positivo");
+        }
+        if (category == null) {
+            throw new IllegalArgumentException("categoria é obrigatória");
+        }
+
+        this(new TransactionId(), description, amount, category);
     }
 }
