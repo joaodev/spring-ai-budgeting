@@ -1,8 +1,10 @@
 package com.joaodev.springaibudgeting.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
+@AllArgsConstructor
 public class Transaction {
     private final TransactionId id;
     private final String description;
